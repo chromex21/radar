@@ -48,6 +48,8 @@ dependencies {
     implementation("androidx.security:security-crypto:1.0.0")
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("com.github.bumptech.glide:glide:4.15.1")
+    implementation("com.android.tools.build:aapt2:8.13.0-13719691:windows")
+    implementation("com.android.tools.lint:lint-gradle:31.13.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

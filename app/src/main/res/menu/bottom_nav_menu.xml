@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/radar_fragment"
+        android:title="Radar"
+        android:icon="@android:drawable/ic_menu_compass" />
+    <item
+        android:id="@+id/invite_dialog"
+        android:title="Invite"
+        android:icon="@android:drawable/ic_menu_send" />
+    <item
+        android:id="@+id/chat_fragment"
+        android:title="Chat"
+        android:icon="@android:drawable/ic_menu_call" />
+    <item
+        android:id="@+id/settings_fragment"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_preferences" />
+</menu>

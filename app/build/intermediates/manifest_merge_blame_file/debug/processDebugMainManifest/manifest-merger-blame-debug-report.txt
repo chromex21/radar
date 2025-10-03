@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yourpackage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\chrom\.gradle\caches\8.13\transforms\cf9164c001f4d4a06d4e4e4cbd4fbd47\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.yourpackage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\chrom\.gradle\caches\8.13\transforms\cf9164c001f4d4a06d4e4e4cbd4fbd47\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\chrom\.gradle\caches\8.13\transforms\cf9164c001f4d4a06d4e4e4cbd4fbd47\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.yourpackage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\chrom\.gradle\caches\8.13\transforms\cf9164c001f4d4a06d4e4e4cbd4fbd47\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\chrom\.gradle\caches\8.13\transforms\cf9164c001f4d4a06d4e4e4cbd4fbd47\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:5:5-27:19
+18        android:allowBackup="true"
+18-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\chrom\.gradle\caches\8.13\transforms\cf9164c001f4d4a06d4e4e4cbd4fbd47\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:10:9-35
+26        android:theme="@style/Theme.Radar" >
+26-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:11:9-43
+27        <activity
+27-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:12:9-26:20
+28            android:name="com.yourpackage.RadarActivity"
+28-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:13:13-42
+29            android:exported="true" >
+29-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:14:13-36
+30            <intent-filter>
+30-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:15:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:16:17-69
+31-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:16:25-66
+32
+33                <category android:name="android.intent.action.VIEW" />
+33-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:18:17-71
+33-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:18:27-68
+34                <category android:name="android.intent.action.DEFAULT" />
+34-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:19:17-74
+34-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:19:27-71
+35                <category android:name="android.intent.action.BROWSABLE" />
+35-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:20:17-76
+35-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:20:27-73
+36
+37                <data
+37-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:22:17-24:46
+38                    android:host="radar.com"
+38-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:23:21-45
+39                    android:scheme="https" />
+39-->C:\Users\chrom\OneDrive\Documents\app\app\src\main\AndroidManifest.xml:24:21-43
+40            </intent-filter>
+41        </activity>
+42
+43        <uses-library
+43-->[androidx.window:window:1.0.0] C:\Users\chrom\.gradle\caches\8.13\transforms\5881e7f4de496b2fc15a8140bf95670c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.window.extensions"
+44-->[androidx.window:window:1.0.0] C:\Users\chrom\.gradle\caches\8.13\transforms\5881e7f4de496b2fc15a8140bf95670c\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+45            android:required="false" />
+45-->[androidx.window:window:1.0.0] C:\Users\chrom\.gradle\caches\8.13\transforms\5881e7f4de496b2fc15a8140bf95670c\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+46        <uses-library
+46-->[androidx.window:window:1.0.0] C:\Users\chrom\.gradle\caches\8.13\transforms\5881e7f4de496b2fc15a8140bf95670c\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+47            android:name="androidx.window.sidecar"
+47-->[androidx.window:window:1.0.0] C:\Users\chrom\.gradle\caches\8.13\transforms\5881e7f4de496b2fc15a8140bf95670c\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+48            android:required="false" />
+48-->[androidx.window:window:1.0.0] C:\Users\chrom\.gradle\caches\8.13\transforms\5881e7f4de496b2fc15a8140bf95670c\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\chrom\.gradle\caches\8.13\transforms\564a6b4cacd819200511da0adffe2bfe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\chrom\.gradle\caches\8.13\transforms\564a6b4cacd819200511da0adffe2bfe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+52            android:authorities="com.yourpackage.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\chrom\.gradle\caches\8.13\transforms\564a6b4cacd819200511da0adffe2bfe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\chrom\.gradle\caches\8.13\transforms\564a6b4cacd819200511da0adffe2bfe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\chrom\.gradle\caches\8.13\transforms\564a6b4cacd819200511da0adffe2bfe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\chrom\.gradle\caches\8.13\transforms\564a6b4cacd819200511da0adffe2bfe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\chrom\.gradle\caches\8.13\transforms\564a6b4cacd819200511da0adffe2bfe\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\chrom\.gradle\caches\8.13\transforms\86eb76b990612133783addeb7199cc9c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\chrom\.gradle\caches\8.13\transforms\86eb76b990612133783addeb7199cc9c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\chrom\.gradle\caches\8.13\transforms\86eb76b990612133783addeb7199cc9c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>
